@@ -1,0 +1,16 @@
+RWD: Responsive Web Design
+Add the responsiveness in all the category of the devices
+
+Media Query: It is a part of the RWD
+- it is to apply a certain property based on the given condition
+syntax: @media screen and (max-width: 20px) {
+} or @media screen and (max-height: 20px) {
+
+}
+max-width: less than or equal to
+min-width: more than
+
+Media query is not used for larger application. Instead bootstrap is used,
+which has an inbuilt media query.
+
+https://github.com/SAI-MOHAN-B/netlify-demo
