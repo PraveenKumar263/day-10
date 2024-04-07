@@ -1,5 +1,5 @@
-https://gist.github.com/rvsp/da08f5ffa59a76699213036005ee0f44
-https://github.com/SAI-MOHAN-B/netlify-demo/blob/main/form.html
+<!-- https://gist.github.com/rvsp/da08f5ffa59a76699213036005ee0f44
+https://github.com/SAI-MOHAN-B/netlify-demo/blob/main/form.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,6 +39,12 @@ https://github.com/SAI-MOHAN-B/netlify-demo/blob/main/form.html
 
         .misc {
             color:green;
+        }
+
+        .centered {
+            text-align: center;
+            display: inline-block;
+
         }
     </style>
 </head>
@@ -600,7 +606,7 @@ https://github.com/SAI-MOHAN-B/netlify-demo/blob/main/form.html
                 <td></td>
                 <td colspan="2">
                     I/We <input type="text" name="" id="" size="100px"> , the applicant,in the capacity of 
-                    <select style="width: 70px" name="" id="countrycode">
+                    <select style="width: 70px" name="" id="">
                         <option value="2">---Please select--</option>
                         <option value="1">1</option>
                     </select>
@@ -610,6 +616,155 @@ https://github.com/SAI-MOHAN-B/netlify-demo/blob/main/form.html
                 </td>
             </tr>
 
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    Place <input type="text" name="" id="" size="28px">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <label style="padding-left: 105px;">DD MM YYYY</label><br>
+                    Verified today, the  06-04-2024
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    I/We, have enclosed<br>
+                    <select style="width: 90%" name="" id="">
+                        <option value="2">---Please select--</option>
+                        <option value="1">1</option>
+                    </select>
+                    as proof<br>
+                    of identity, 
+                    <select style="width: 70%" name="" id="">
+                        <option value="2">---Please select--</option>
+                        <option value="1">1</option>
+                    </select>
+                    as proof of address,<br>
+                    <select style="width: 80%" name="" id="">
+                        <option value="2">---Please select--</option>
+                        <option value="1">1</option>
+                    </select> 
+                    as proof of date of birth<br>
+                    and 
+                    <select style="width: 15%" name="" id="">
+                        <option value="2">---Please select--</option>
+                        <option value="1">1</option>
+                    </select> 
+                    as proof of PAN allotted.
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <b> Whether you wish to have?</b>
+                    <label for="both" style="padding-left: 40px;">Physical PAN Card & e-PAN Card</label>
+                    <input type="radio" name="getcard" id="both">
+                    <label for="panOnly" style="padding-left: 40px;">e-PAN Card</label>
+                    <input type="radio" name="getcard" id="panOnly">
+                    <b style="padding-left: 40px;  text-decoration: underline;"> <i>Fees Applicable</i></b>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <b>Other Details</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <b>1. Depository Account Details</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="" id="">
+                </td>
+                <td colspan="2">
+                    <b>1. Depository Account Details</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <b>DP ID: </b>
+                    <input type="text" name="" id="" style="padding-left: 12px;">
+                    <b style="padding-left: 12px;">Client ID: </b>
+                    <input type="text" name="" id="" style="padding-left: 12px;">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <b>2. Payment Details</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="" id="">
+                </td>
+                <td colspan="2">
+                    <b>Online Payment</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="" id="">
+                </td>
+                <td colspan="2">
+                    <b>Online Payment</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    For Paperless PAN Application 
+                    <label for="yes" style="padding-left: 40px;">Yes</label>
+                    <input type="radio" name="paperless" id="yes">
+                    <label for="no" style="padding-left: 40px;">No</label>
+                    <input type="radio" name="paperless" id="no">
+                    <br>
+                    <input type="radio" name="" id="">
+                    DSC
+                    <select style="width: 25%" name="" id="">
+                        <option value="2">---Please select--</option>
+                        <option value="1">1</option>
+                    </select> 
+                    <u style="color: brown; padding-left: 30px;">Guidelines for DSC user</u>
+                    <br>
+                    Upload Photo
+                    <input type="file" name="photoFile" id="yes" style="padding-left: 200px;">
+                    Upload Signature
+                    <input type="file" name="signFile" id="yes" style="padding-left: 200px; padding-bottom: 4px;">
+                    <br>
+                    Upload Document
+                    <input type="file" name="docFile" id="yes" style="padding-left: 170px;"> 
+                    <span style="color: black; padding-left: 650px;"></span>OR
+                    <br>
+                    <div>ALREADY UPLOADED PHOTO: <input type="text" name="" id="" style="padding-left: 200px;" size="12px;"></div>
+                    
+                    <br>
+                    ALREADY UPLOADED SIGNATURE: <input type="text" name="" id="" style="padding-left: 200px;" size="12px;">
+                    <br>
+                    ALREADY UPLOADED DOCUMENTS: <input type="text" name="" id="" style="padding-left: 200px; height: 100px; width: 125px;">
+                    <br>
+                    <span class="centered"><input type="submit" name="" id=""></span>
+                </td>
+            </tr>
         </tbody>
     </table>
 </body>
